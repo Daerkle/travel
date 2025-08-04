@@ -16,7 +16,7 @@ const mockTrips: Trip[] = [
     end_date: '2024-06-22',
     includes_zinzino: true,
     zinzino_price: 4200,
-    image_url: '/api/placeholder/600/400',
+    image_url: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb',
     highlights: [
       'Witness the Great Migration',
       'Big Five wildlife viewing',
@@ -57,7 +57,7 @@ const mockTrips: Trip[] = [
     end_date: '2024-07-15',
     includes_zinzino: true,
     zinzino_price: 3400,
-    image_url: '/api/placeholder/600/400',
+    image_url: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb',
     highlights: [
       'Victoria Falls helicopter flight',
       'Zambezi River sunset cruise',
@@ -97,7 +97,7 @@ const mockTrips: Trip[] = [
     start_date: '2024-05-20',
     end_date: '2024-05-26',
     includes_zinzino: false,
-    image_url: '/api/placeholder/600/400',
+    image_url: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb',
     highlights: [
       'Table Mountain cable car',
       'Cape Winelands tour',
@@ -137,7 +137,7 @@ const mockTrips: Trip[] = [
     end_date: '2024-08-15',
     includes_zinzino: true,
     zinzino_price: 4900,
-    image_url: '/api/placeholder/600/400',
+    image_url: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb',
     highlights: [
       'Ring-tailed lemur encounters',
       'Avenue of the Baobabs sunset',
@@ -178,7 +178,7 @@ const mockTrips: Trip[] = [
     end_date: '2024-09-16',
     includes_zinzino: true,
     zinzino_price: 2300,
-    image_url: '/api/placeholder/600/400',
+    image_url: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb',
     highlights: [
       'Big Five wildlife spotting',
       'Early morning and evening game drives',
@@ -218,7 +218,7 @@ const mockTrips: Trip[] = [
     start_date: '2024-10-03',
     end_date: '2024-10-11',
     includes_zinzino: false,
-    image_url: '/api/placeholder/600/400',
+    image_url: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=600&h=400&fit=crop&crop=entropy&cs=tinysrgb',
     highlights: [
       'Djemaa el-Fna square in Marrakech',
       'Fez medina and tanneries',

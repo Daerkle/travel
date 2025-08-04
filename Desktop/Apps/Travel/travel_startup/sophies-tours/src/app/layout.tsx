@@ -2,11 +2,20 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sophie's Tours - Unique Safari & Travel Experiences",
-  description: "Discover extraordinary travel experiences with Sophie's Tours. From African safaris to cultural immersions, embark on transformative journeys with our Zinzino health integration program.",
-  keywords: "safari, travel, tours, africa, zinzino, health, wellness, adventure",
+  title: "Sophie's Tours - Safari & Gesundheitsreisen",
+  description: "Entdecken Sie außergewöhnliche Reiseerlebnisse mit Sophie's Tours. Von afrikanischen Safaris bis zu kulturellen Immersionen - begeben Sie sich auf transformative Reisen mit unserem Zinzino-Gesundheitsprogramm.",
+  keywords: "safari, reisen, tours, afrika, zinzino, gesundheit, wellness, abenteuer",
   authors: [{ name: "Sophie's Tours" }],
-  viewport: "width=device-width, initial-scale=1",
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/logo192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/logo512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/logo192.png', sizes: '192x192', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({

@@ -67,7 +67,7 @@ export default function TripDetailPage() {
       {/* Hero Image */}
       <section className="relative h-96 overflow-hidden">
         <Image
-          src={trip.image_url || '/api/placeholder/800/400'}
+          src={trip.image_url || 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&h=400&fit=crop&crop=entropy&cs=tinysrgb'}
           alt={trip.title}
           fill
           className="object-cover"

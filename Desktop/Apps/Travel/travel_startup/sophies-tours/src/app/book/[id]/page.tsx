@@ -145,7 +145,7 @@ export default function BookingPage() {
           <div className="bg-white rounded-lg shadow-md p-6 mb-8">
             <div className="flex items-center space-x-4">
               <img
-                src={trip.image_url || '/api/placeholder/100/100'}
+                src={trip.image_url || 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=100&h=100&fit=crop&crop=entropy&cs=tinysrgb'}
                 alt={trip.title}
                 className="w-20 h-20 object-cover rounded-lg"
               />

@@ -17,7 +17,7 @@ const TripCard: React.FC<TripCardProps> = ({ trip }) => {
     <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group">
       <div className="relative h-64 overflow-hidden">
         <Image
-          src={trip.image_url || '/api/placeholder/400/300'}
+          src={trip.image_url || 'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=400&h=300&fit=crop&crop=entropy&cs=tinysrgb'}
           alt={trip.title}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
